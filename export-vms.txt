@@ -2,3 +2,4 @@ vagrant package --base treinamento-cd_server_1437444765150_80762 --output /home/
 
 vagrant package --base treinamento-cd_workstation_1437444312979_63348 --output /home/rafael/dev/vagrant-vms/workstation.box
 
+vagrant box add treinamentocdWK /home/rafael/dev/vagrant-vms/workstation.box
